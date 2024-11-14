@@ -11,21 +11,21 @@ int main()
 	short int time;
 	short int acceleration;
 
-	cout << "Enter the speed: ";
+	cout << "Enter the speed (in meters/seconds): ";
 	cin >> speed;
 
-	cout << "Enter the time: ";
-	cin >> time;
-	
-	cout << "Enter the acceleration: ";
+	cout << "Enter the acceleration (in meters/seconds^2): ";
 	cin >> acceleration;
+
+	cout << "Enter the time (seconds): ";
+	cin >> time;
 
 	cout << endl;
 
 	float traveled_distance = (speed * time) + ((acceleration * pow(time, 2)) / 2);
 
 	cout << "Formula: S = (v * t) + ((a * t^2) / 2)" << endl;
-	cout << "S = " << traveled_distance << "m" << endl;
+	cout << "S = " << traveled_distance << " m" << endl;
 
 	_getch();
 	return 0;
