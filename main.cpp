@@ -11,7 +11,7 @@ int main()
 
 	short int length;
 
-	cout << "Enter the length of the circle: ";
+	cout << "Enter the length of the circle (in meters): ";
 	cin >> length;
 	
 	cout << endl;
@@ -26,7 +26,7 @@ int main()
 	float radius = length / (2 * pi);
 	float square = pi * pow(radius, 2);
 	
-	cout << "S = " << square << endl;
+	cout << "S = " << square << " m^2" << endl;
 
 	_getch();
 	return 0;
