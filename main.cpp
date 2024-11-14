@@ -19,7 +19,7 @@ int main()
 	cout << endl;
 
 	cout << "Formula: (1 / R0) = (1 / R1) + (1 / R2) + (1 / R3)" << endl;
-	cout << "R0 = " << R0 << endl;
+	cout << "R0 = " << R0 << " ohm" << endl;
 
 	_getch();
 	return 0;
@@ -29,7 +29,7 @@ short int input(short int number)
 {
 	short int result;
 
-	cout << "Enter R" << number << ": ";
+	cout << "Enter R" << number << " (in ohms): ";
 	cin >> result;
 
 	return result;
