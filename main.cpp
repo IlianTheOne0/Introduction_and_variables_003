@@ -7,7 +7,6 @@ HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 using std::cout;
 using std::endl;
 using std::cin;
-using std::string;
 
 int main()
 {
