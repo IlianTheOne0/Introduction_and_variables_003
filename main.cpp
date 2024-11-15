@@ -28,6 +28,7 @@ int main()
 	cout << "\t\tPages\t   : ";
 	SetConsoleTextAttribute(hConsole, 5);
 	cout << pages << endl;
+	SetConsoleTextAttribute(hConsole, 7);
 
 	_getch();
 	return 0;
